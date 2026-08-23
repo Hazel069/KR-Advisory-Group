@@ -651,4 +651,56 @@ img {
     }
 }
 ```
+/* ---------- CEO Profile ---------- */
+
+.ceo-profile {
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ceo-profile img {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    object-position: center;
+    border: 3px solid var(--gold);
+    border-radius: 6px;
+}
+
+.ceo-details {
+    background: var(--white);
+    padding: 20px 15px;
+    margin-top: -5px;
+    border-bottom: 3px solid var(--gold);
+}
+
+.ceo-details h2 {
+    color: var(--navy);
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+}
+
+.ceo-details p {
+    color: var(--gold);
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.ceo-details span {
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 760px) {
+
+    .ceo-profile {
+        max-width: 360px;
+    }
+
+    .ceo-profile img {
+        height: 360px;
+    }
+}
 
